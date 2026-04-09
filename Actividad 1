@@ -1,3 +1,10 @@
 """Alberto Cabrera
 Diploma 1D
 9(4/2026)"""
+print(type(230))
+print(type(2.33))
+print(9*5)
+print(10//3)
+print(10+60)
+print(100/10)
+print(5/4)
