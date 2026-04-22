@@ -29,7 +29,7 @@ print(f"hola mi nombre es: {nombre}")
 resultado=nombre[0]+nombre[-7]
 print(resultado)
 
-#practicaholaaaaa
+#practicaholaaaaa MUNDOOOO
 
 texto="Aprender python es divertido"
 print(texto[0])
