@@ -8,3 +8,9 @@ print(10//3)
 print(10+60)
 print(100/10)
 print(5/4)
+
+
+variable="nombre_completo"
+
+print("nombre_completo".upper())
+print(len("nombre_completo"))
