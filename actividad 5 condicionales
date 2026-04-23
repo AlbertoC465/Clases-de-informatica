@@ -1,0 +1,19 @@
+ 
+
+
+nota=int(input("ingrese su nota:"))
+if nota >= 90 and nota <=100:
+    print("su nota es A")
+else:
+    if nota <=89 and nota >=80:
+        print("su nota es B")
+    else:
+        if nota >=70 and nota <=79:
+            print("su nota es c")
+        else:
+            if nota <70:
+                print("su nota es D")
+print("se ha acabado el programa")
+
+
+
