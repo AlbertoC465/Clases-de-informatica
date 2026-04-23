@@ -31,8 +31,10 @@
 # / es la division normal que da un resultado con decimales y // es la division entera y % es el operador de modulo que da el residuo de un calculo  
 #d) Escribe una instrucción que permita comprobar la versión de Python que se está usando. 
 import sys 
+print(sys.version)
 #e) Escribe una instrucción que permita consultar las palabras reservadas de Python.
 import keyword
+print(keyword.kwlist)
 
 #PARTE B
 #El siguiente programa tiene errores. Reescríbelo de forma correcta para que funcione.
@@ -53,8 +55,8 @@ print(f"Costo estimado: {costo}")
 texto="Tecnologia  para todos"
 print(texto.upper())
 print(len(texto))
-print(texto.startswith("python"))
-print(texto.replace("tecnologia", "programacion"))
+print("Python" in texto)
+print(texto.replace("Tecnologia", "programacion"))
 print(texto.split())
 
 nombre=input("ingrese su nombre: ")
@@ -69,12 +71,11 @@ costoestimado= areapared * float(precio)
 print(f"El area de la pared es: {areapared} metros cuadrados")
 print(f"El costo estimado para pintar la pared es: {costoestimado}")
 
+nombre_completo = nombre + " " + apellido
 
-variable="nombre_completo"
-
-print("nombre_completo".upper())
-print(len("nombre_completo"))
-print("a" in "nombre_completo")
+print(nombre_completo.upper())
+print(len(nombre_completo))
+print("a" in nombre_completo)
 print ( "El costo estimado es mayor a 100" if costoestimado > 100 else "El costo estimado no es mayor a 100")
 
 
