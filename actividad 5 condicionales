@@ -1,19 +1,54 @@
- 
 
 
-nota=int(input("ingrese su nota:"))
-if nota >= 90 and nota <=100:
-    print("su nota es A")
+# %%
+"""numero=int(input("ingrese un numero: "))
+if numero ==0: 
+    print("el numero es cero")
 else:
-    if nota <=89 and nota >=80:
-        print("su nota es B")
-    else:
-        if nota >=70 and nota <=79:
-            print("su nota es c")
+    if numero>0:
+        if numero%2==0:
+            print("el numero es par positivo")
         else:
-            if nota <70:
-                print("su nota es D")
-print("se ha acabado el programa")
+            print("el numero es impar positivo")
+    else:
+        if numero%2==0:
+            print("el numero es par negativo")
+        else:
+            print("el numero es impar negativo")"""
 
+# %%
+"""print("Ingrese un número")
+a = int(input())
+ 
+if a == 0:
+    print("El número es cero")
+else:
+    if a > 0:
+        if a % 2 == 0:
+            print("El número es positivo y par")
+        else:
+            print("El número es positivo e impar")
+    else:
+        if a % 2 == 0:
+            print("El número es negativo y par")
+        else:
+            print("El número es negativo e impar")
+print("Fin del programa")
+ 
+print ("Ingrese un número")
+numero = int(input())
+if numero > 0 and numero % 2 == 0:
+    print("El número es positivo y par")
+elif numero > 0 and numero % 2 == 1:
+    print("El número es positivo e impar")
+elif numero < 0 and numero % 2 == 0:
+    print("El número es negativo y par")
+elif numero < 0 and numero % 2 == 1:
+    print("El número es negativo e impar")
+else:
+    print("El numero es cero")"""
 
+# %%
 
+numero=int(input("ingrese un numero: "))
+print("el numero es positivo y par" if numero>0 and numero%2==0 else "el numero es positivo e impar" if numero<0 and numero%2==1 else "el numero es negativo y par" if numero<0 and numero%2==0 else "el numero es negativo e impar" if numero<0 and numero%2==1 else "el numero es impar e negativo")
