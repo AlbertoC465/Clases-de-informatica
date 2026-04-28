@@ -1,1 +1,97 @@
+#actividad 3
+edad=16
+estatura=1.70
+base=float(input("ingrese la base: "))
+altura= float(input("ingrese la altura: "))
+resultado= base*altura*0.5
+#aprenderaste esto:
+print("el area del triangulo es: ", resultado)
 
+#%%
+lado1=float(input("ingrese el lado a del triangulo:"))
+lado2=float(input("ingrese el lado b:"))
+lado3=float(input("ingrese el lado c:"))
+calculo=lado1+lado2+lado3
+print("el perimetro del triangulo es: ",calculo)
+
+# %%
+longitud=int(input("ingrese la longitud:"))
+ancho=int(input("ingrese el ancho"))
+area=ancho*longitud
+perimetro=2*(longitud+ancho)
+print("el area es: ",area)
+print("el perimetro es: ",perimetro)
+
+#%%
+radio=float(input("ingrese el radio"))
+pi=3.14
+area=pi*radio*radio
+circunferencia=2*pi*radio
+print("el area: ",area)
+print("la circunferencia es: ",circunferencia)
+
+variable="espero que este curso no este lleno de jerga"
+print("jerga" in variable)
+
+
+print("on" in "python" and "on" in "dragon")
+
+print("ai" in "rail" and "ai" in "brain")
+
+#%%
+m=(10-2)/(6-2)
+print("la pendiente es: ",m)
+
+#%%
+#11
+
+#%%
+palabra1=len("python")
+palabra2=len("dragon")
+
+print(palabra1)
+print(palabra2)
+#comparacion boleana es cuando comparas cosas y el resultado solo puede ser
+print(palabra1==palabra2)
+
+#%%
+logitud=len("python")
+a_float=float(6.0)
+b_str=str(6.0)
+
+print(longitud)
+print(a_float)
+print(b_str)
+
+# %%
+division=7/3
+print(division)
+
+# %%
+division=(7//3)==int(2.7)
+print(f"el resultado es {division}")
+
+#%%
+dato=type("10")==type(10)
+print(f"el dato es {dato}")
+
+# %%
+numero= int(float("9.8"))==10
+print(f"la respuesta es {numero}")
+
+valor=input("ingrese las horas trabajadas: ")
+tarifa=input("ingrese la tarifa por horas: ")
+pago=float(valor)*float(tarifa)
+
+print(f"su pago sera de {pago} dolares")
+
+#%%
+anios=input("ingrese la cantidad de años vividos")
+calculo=float(anios)*365*24*3600
+print(f"usted ha vivido {calculo} segunodos")
+
+# %%
+#range es para cada valor hasta el numero n+1
+#in para cada valor dentro de…
+for n in range(1, 6):
+    print(n, 1, n, n**2, n**3)
