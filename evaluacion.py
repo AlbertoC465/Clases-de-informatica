@@ -1,0 +1,78 @@
+#PARTE A
+#respuesta 1:
+#respuesta 2:
+#respuesta 3:
+
+#parte B
+#codigo corregido
+
+# parte C
+#programador integrador
+
+
+
+# a indica el tipo de dato de cada variable
+# el nombre es un tipo de dato "str"
+#edad es un tipo de dato "int"
+#es un tipo de dat0 "float"
+#cursos es un tipo de dato "list"
+
+#b el programa mostraria el tipo de dato de cada variable
+
+#c explica que ace len()
+# es una funcion que muestra la cantidad de caracteres que tiene una variable
+
+# compresion conceptual 
+# a) la diferencia es que print() muestra el resultado en la consola y input() permite al usuario ingresar datos a traves de la consola
+# B)b) ¿Por qué un dato ingresado con input() puede dar error si se usa directamente en un cálculo?
+# porque el dato ingresado con input() se considera una cadena de texto (str)
+# c)c) Explica la diferencia entre /, // y %.
+# / es la division normal que da un resultado con decimales y // es la division entera y % es el operador de modulo que da el residuo de un calculo  
+#d) Escribe una instrucción que permita comprobar la versión de Python que se está usando. 
+import sys 
+print(sys.version)
+#e) Escribe una instrucción que permita consultar las palabras reservadas de Python.
+import keyword
+print(keyword.kwlist)
+
+#PARTE B
+#El siguiente programa tiene errores. Reescríbelo de forma correcta para que funcione.
+ancho = float(input("Ingrese el ancho del terreno: "))
+largo = float(input("Ingrese el largo del terreno: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho *largo
+costo = area * precio
+print(f"Área total: {area}")
+print(f"Costo estimado: {costo}")
+
+#a) ¿Cuáles eran los errores principales?
+# los errores principales eran que no se estaba convirtiendo el input a float y no se estaban usando las variables correctamente para calcular el area y el costo 
+
+#b) ¿Por qué tu corrección sí permite obtener resultados válidos?
+#porque al convertir el input a float se puede realizar operaciones matematicas con los datos ingresados y al usuar las variables correctamente se tiene el resultado esperado
+
+texto="Tecnologia  para todos"
+print(texto.upper())
+print(len(texto))
+print("Python" in texto)
+print(texto.replace("Tecnologia", "programacion"))
+print(texto.split())
+
+nombre=input("ingrese su nombre: ")
+apellido=input("ingrese su apellido: ")
+pais=input("ingrese su pais: ")
+pared=input("ingrese el ancho de la pared: ")
+altopared=input("ingrese el alto de la pared: ")
+precio=input("ingrese el precio por metro cuadrado: ")
+
+areapared= float(pared) * float(altopared)
+costoestimado= areapared * float(precio)
+print(f"El area de la pared es: {areapared} metros cuadrados")
+print(f"El costo estimado para pintar la pared es: {costoestimado}")
+
+nombre_completo = nombre + " " + apellido
+
+print(nombre_completo.upper())
+print(len(nombre_completo))
+print("a" in nombre_completo)
+print ( "El costo estimado es mayor a 100" if costoestimado > 100 else "El costo estimado no es mayor a 100")
