@@ -1,2 +1,34 @@
+""" count=1e de control
+while count<=10:
+    print(f"esta es la vuelta numero {count}")
+    count= count+1
+else:
+    print("se han terminado las vueltas")"""
+"""clave=""
+while clave !="python":
+    clave=input("ingrese la clave: ")
+    print("aceso permitido")
+else:
+    print("clave incorecta")"""
+# %%
+opcion = ""
+while opcion != "c":
+    print("Menú de opciones:")
+    print(" Opción 1")
+    print(" Opción 2")
+    print(" Salir")
+    opcion = input("Seleccione una opción: ")      
+    print (opcion)
+    if opcion == "a":
+        print ("Hola Bienvenido")
+    elif opcion == "b":
+        print ("Estamos aprendiendo python")
+    elif opcion == "c":
+        print("Saliendo del programa...")
+    else:
+        print("Opcion no valida")
 
-count=0
+
+
+
+
