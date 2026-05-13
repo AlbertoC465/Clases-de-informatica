@@ -10,7 +10,7 @@ for nota in notas:    #“Para cada nota dentro de la lista notas…”
 promedio=suma/len(notas)
 print(f"el promedio es{promedio}")"""
 
-notas=[8,7,9,10,6]
+"""notas=[8,7,9,10,6]
 suma=0
 contador=0
 for nota in notas:    #“Para cada nota dentro de la lista notas…”
@@ -21,11 +21,11 @@ print(f"el promedio es: {promedio}")
 
 languague="PY THON"
 for hola in languague:
-    print(hola)
+    print(hola)"""
 
 
 
-palabra=input("ingrese una palabra: ")
+"""palabra=input("ingrese una palabra: ")
 vocales=0
 consonantes=0
 x=len(palabra)
@@ -35,7 +35,52 @@ for letra in palabra:
     else:
         consonantes=consonantes+1
 print(f"hay vocales {vocales} en total")
-print(f"hay {x} palabras")
+print(f"hay {x} palabras")"""
+
+
+
+
+
+
+
+"""numeros = {"hola", "eee", "cinco", "dos"}
+
+for n in numeros:
+    print(n)"""
+
+"""companies={"Facebook","google","Apple", "Amazon","Facebook"} #no existen repetidos en un set con {}
+for n in companies:
+    print(n)"""
+
+"""edades = {12, 15, 18, 21, 10} 
+for n in edades:
+    if n>=18:
+        print(n)"""
+
+"""lista_numeros=[1,2,3,4,5]
+numbers=int(input("ingrese el numero:"))
+for n in lista_numeros:
+    if n==numbers:
+        print(f"numero encontrado: {n}")
+        break
+else:
+    print(f"numero no encontrado")"""
+
+cedula=(input("ingrese su cedula:"))
+cedula_limpia=""
+for n in cedula:
+    if n == '-' or n == ' ':
+        continue
+    cedula_limpia = cedula_limpia +n
+print(f"nueva cedula en limpio es: {cedula_limpia}")
+
+
+
+
+
+
+
+
 
 
 
