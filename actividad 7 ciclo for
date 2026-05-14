@@ -1,6 +1,6 @@
 #ciclo for
 
-notas=[8.5, 6.0, 9.0, 7.0, 5.5]
+"""notas=[8.5, 6.0, 9.0, 7.0, 5.5]
 suma=0
 aprobados=0
 reprobados=0
@@ -14,4 +14,51 @@ for n in notas:
 print(f"la suma total es {suma}")
 print(f"el promedio es: {promedio}")
 print(f"el numero de aprobados es: {aprobados}")
-print(f"el numero de reprobados es: {reprobados}")
+print(f"el numero de reprobados es: {reprobados}")"""
+
+
+"""contraseña = "Python2026"
+suma = 0
+numeros = 0
+x = 0
+
+for c in contraseña:
+    if (c >= "a" and c <= "z") or (c >= "A" and c <= "Z"):
+        suma = suma + 1
+    else:
+        numeros = numeros + 1
+
+    if c == "o":
+        x = x + 1
+
+print(f"tiene {numeros} números")
+print(f"tiene {suma} letras")
+print(f"la letra 'o' aparece {x} veces")"""
+
+
+"""productos = {"teclado", "mouse", "monitor", "mouse", "impresora"}
+suma=0
+num=0
+for x in productos:
+    suma=suma+1
+    if len(x)>6:
+        num=num+1
+print(f"hay {suma} productos")
+print(f"hay {num} productos con mas de 6 letras")"""
+
+
+"""correo = input("ingrese su correo electronico: ")
+z=""
+for x in correo:
+    if x=="@":
+        break
+    z=z+x
+print(z)"""
+
+telefono=input("ingrese un numero de telefono:")
+numero=""
+for x in telefono:
+    if x == " " or x == "-" or x == "_":
+        continue
+    numero=numero+x
+print(numero)
