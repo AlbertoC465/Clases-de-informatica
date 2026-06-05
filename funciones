@@ -1,0 +1,61 @@
+nombre=input("ingrese su nombre: ") 
+
+apellido=input("ingrese su apellido: ") 
+
+nota11=int(input("ingrese su nota 1: ")) 
+
+nota12=int(input("ingrese su nota 2: ")) 
+
+nota13=int(input("ingrese su nota 3: ")) 
+
+  
+
+def promedio1(nombre,apellido,nota1,nota2,nota3): 
+
+    promedio=(nota1+nota2+nota3)/3 
+
+  
+
+     
+
+    print(f"el nombre es: {nombre}") 
+
+    print(f"el apellido es: {apellido}") 
+
+    print(f"el promedio es: {promedio}") 
+
+  
+
+  
+
+promedio1(nombre,apellido,nota11,nota12,nota13) 
+
+ 
+
+ 
+
+def obtener_mensaje(): 
+
+    mensaje = "Bienvenido al sistema" 
+
+    return mensaje 
+
+  
+
+  
+
+def generar_nombre_completo(nombre,apellido): 
+
+  
+
+    nombre_completo= nombre + " " + apellido 
+
+    return nombre_completo 
+
+nombre=input("ingrese su nombre: ") 
+
+apellido=input("ingrese su apellido: ") 
+
+  
+
+print(f"{obtener_mensaje()} {generar_nombre_completo(nombre,apellido)}") 
